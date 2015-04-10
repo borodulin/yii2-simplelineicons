@@ -1,6 +1,6 @@
 {
     "name": "conquer/simplelineicons",
-    "description": "Conquer simplelineicons widget",
+    "description": "Yii2 simplelineicons widget",
     "keywords": ["yii2", "extension", "widget"],
     "homepage": "https://github.com/borodulin/yii2-simplelineicons",
     "type": "yii2-extension",
