@@ -1,5 +1,8 @@
-SIMPLE LINE ICONS for Yii2 framework
-======================================================================================
+# SIMPLE LINE ICONS for Yii2 framework
+
+[![Latest Version](https://img.shields.io/packagist/v/conquer/simplelineicons.svg)](https://packagist.org/packages/conquer/simplelineicons)
+[![Total Downloads](https://img.shields.io/packagist/dt/conquer/simplelineicons.svg)](https://packagist.org/packages/conquer/simplelineicons)
+[![License](https://img.shields.io/packagist/l/conquer/simplelineicons.svg)](LICENSE)
 
 ## Description
 
@@ -14,30 +17,21 @@ You can checkout the vector PSD versions of these icons on the following links
 * http://graphicburger.com/simple-line-icons-set-vol-3/
 * http://graphicburger.com/simple-line-icons-set-vol-4/
 
-To modify your generated font, use the *dev.svg* file, located in the *fonts* folder in 
-this package. You can import this dev.svg file to the IcoMoon app. All the tags (class 
-names) and the Unicode points of your glyphs are saved in this file.
+The icons are installed from the [simple-line-icons](https://www.npmjs.com/package/simple-line-icons) npm package.
 
-These fonts converted to SVG using Illustrator, the SVG was then converted into a font 
-using the awesome Icooon app (http://icomoon.io/app)
+## Requirements
 
+- PHP 7.4 or 8.x
+- Yii 2.0
+- [asset-packagist](https://asset-packagist.org) repository configured in your application's `composer.json` (standard for Yii2 app templates)
 
 ## Installation
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/). 
+Install the extension via [Composer](https://getcomposer.org):
 
-To install, either run
-
+```bash
+composer require conquer/simplelineicons:^1.0
 ```
-$ php composer.phar require conquer/simplelineicons "*"
-```
-or add
-
-```
-"conquer/simplelineicons": "*"
-```
-
-to the ```require``` section of your `composer.json` file.
 
 ## Usage
 
@@ -47,4 +41,4 @@ conquer\simplelineicons\SimpleLineIconsAsset::register($this);
 
 ## License
 
-**conquer/simplelineicons** is released under the MIT License. See the bundled `LICENSE.md` for details.
+**conquer/simplelineicons** is released under the MIT License. See the bundled [`LICENSE`](LICENSE) for details.
