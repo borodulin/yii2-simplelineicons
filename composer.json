@@ -1,7 +1,11 @@
 {
     "name": "conquer/simplelineicons",
     "description": "Yii2 simplelineicons widget",
-    "keywords": ["yii2", "extension", "widget"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "widget"
+    ],
     "homepage": "https://github.com/borodulin/yii2-simplelineicons",
     "type": "yii2-extension",
     "license": "MIT",
@@ -14,17 +18,17 @@
     ],
     "extra": {
         "branch-alias": {
-          "dev-master": "1.0.0.x-dev"
+            "dev-master": "1.0.0.x-dev"
         }
-      },
-    "require": {
-    	"php": ">=5.4.0",
-    	"yiisoft/yii2": "*",
-    	"bower-asset/simple-line-icons-webfont": "*"
     },
-	"autoload": {
-		"psr-4": {
-			"conquer\\simplelineicons\\": ""
-		}
-	}
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "yiisoft/yii2": "^2.0",
+        "npm-asset/simple-line-icons": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "conquer\\simplelineicons\\": ""
+        }
+    }
 }

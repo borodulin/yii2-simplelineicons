@@ -8,18 +8,13 @@ namespace conquer\simplelineicons;
 
 class SimpleLineIconsAsset extends \yii\web\AssetBundle
 {
-	// The files are not web directory accessible, therefore we need
-	// to specify the sourcePath property. Notice the @bower alias used.
-	public $sourcePath = '@bower/simple-line-icons-webfont';
-	public $css = [
-			'simple-line-icons.css',
-	];
-	
-	public $js = [
-			'icons-lte-ie7.js',
-	];
-	
-	public $jsOptions = [
-			'condition'=>'lte IE 7',
-	];
+    public $sourcePath = '@npm/simple-line-icons';
+
+    public $css = [
+        'css/simple-line-icons.css',
+    ];
+
+    public $publishOptions = [
+        'only' => ['css/*', 'fonts/*'],
+    ];
 }
